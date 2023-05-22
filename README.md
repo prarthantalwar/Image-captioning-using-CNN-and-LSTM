@@ -4,7 +4,7 @@ The Image Captioning project aims to generate captions for images automatically.
 
 ### Dataset
 The dataset used in this project is Flicker8k. It contains around 8000 images with corresponding captions.
-![image_captioning_dataset](https://user-images.githubusercontent.com/74714252/228909136-9c5ee7a7-1281-41ee-af50-210913231f76.png)
+<!-- ![image_captioning_dataset](https://user-images.githubusercontent.com/74714252/228909136-9c5ee7a7-1281-41ee-af50-210913231f76.png) -->
 
 
 ### Dependencies
