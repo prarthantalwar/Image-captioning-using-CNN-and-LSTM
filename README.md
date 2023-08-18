@@ -56,6 +56,10 @@ The Flask web application allows users to upload images and receive generated ca
 3. Access the web application through a web browser.
 4. Upload an image, and the application will generate a caption using the trained model and display it on the screen.
 
+### Website Link
+
+Visit the deployed Image Captioning Web Application: [https://image-caption-generator-mx3k.onrender.com](https://image-caption-generator-mx3k.onrender.com)
+
 ## Evaluation Metric
 
 The evaluation metric used in this project is BLEU. BLEU (Bilingual Evaluation Understudy) is a metric for evaluating the quality of generated text. It compares the generated text to a set of reference texts and computes a score based on the n-grams overlap.
