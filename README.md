@@ -4,7 +4,7 @@ The Image Captioning project aims to generate captions for images automatically.
 
 ### Dataset
 The dataset used in this project is Flicker8k. It contains around 8000 images with corresponding captions.
-<!-- ![image_captioning_dataset](https://user-images.githubusercontent.com/74714252/228909136-9c5ee7a7-1281-41ee-af50-210913231f76.png) -->
+![image_captioning_dataset](https://user-images.githubusercontent.com/74714252/228909136-9c5ee7a7-1281-41ee-af50-210913231f76.png)
 
 
 ### Dependencies
@@ -34,6 +34,7 @@ The captions are preprocessed using LSTM networks. The words are tokenized, and 
 
 ## Model Architecture
 The model architecture consists of a CNN for image processing and an LSTM for sequence processing. The image features are fed into the LSTM along with the word embeddings of the caption. The output of the LSTM is a sequence of words that form the caption.
+![model](https://user-images.githubusercontent.com/74714252/228908085-319930a6-9251-4fb5-a7c5-181a1404869d.png)
 
 
 ## Evaluation Metric
