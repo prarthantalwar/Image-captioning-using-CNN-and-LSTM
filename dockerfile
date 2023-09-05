@@ -1,14 +1,14 @@
-# Use the official Python image as the base image
+# Use an official Python runtime as a parent image
 FROM python:3.8
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the application files into the working directory
+# Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install the application dependencies
+# Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
-# Define the entry point for the container
-CMD ["flask", "run", "--host=0.0.0.0"]
+# Run app.py when the container launches
+CMD ["python", "app.py"]
